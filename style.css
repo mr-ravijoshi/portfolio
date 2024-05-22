@@ -1,0 +1,1196 @@
+.dp{
+  height: 10rem;
+  width: 10rem;
+}
+
+.responsive{
+   
+  background-color: #000;
+}
+
+#contact1{
+  color: rgb(255, 238, 7);
+  background-color: black;
+  border: 1px inset  rgb(255, 238, 7);
+  border-radius: 5px;font-family:'Arial';
+  font-weight: lighter;
+  min-width: 150px;
+  padding: 5%;
+}
+#icon:active{
+  outline: 5px solid white;
+}
+#contact1:active{
+  background-color: yellow;
+  color: #000;
+  border: 1px inset  rgb(0, 0, 0);
+  box-shadow: 0px 0px 5px white;
+  transition: 0.2s linear;
+}
+.page1{
+  background-image: url("finalbg.jpeg");
+  
+  background-size: cover;
+  
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 1;
+    align-items: center;
+    
+}
+.firstdiv{
+    background-color: rgba(22, 22, 22, 0);
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    margin: auto auto auto 10%;
+
+    
+}
+.firstdiv font{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.secdiv{
+    background-color: rgba(22, 22, 22, 0);
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    z-index: 1;
+    margin-top: -20px
+}
+
+.instagram .fab {
+  font-size:30px;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 20%;
+}
+.iconbox{
+  background-color: rgba(22, 22, 22, 0);
+  height: 20%;
+  width: 4%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  
+
+  margin: 0%;
+  padding: 0%;
+  gap: 10px;
+  position: absolute;
+  align-self:flex-end;
+  margin-top: 30vh;
+  
+}
+.intro{
+    z-index: 1;
+    
+    height:auto;
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px auto;
+    row-gap: 10px;
+    justify-content: center;
+    background-size: cover;
+    
+    
+}
+.introbg{
+  background-image: url("pexels-aaditya-arora-592753.jpg");
+
+
+  background-size: cover;
+   
+    height:150%;
+    width: 100%;
+    z-index: -1;
+    position:absolute;
+    background-size: cover;
+    opacity: 0.5;
+    
+}
+@media (max-width: 550px){
+    .intro{ height:900px;}
+}
+
+@media (max-width: 400px){
+   
+}
+.box{
+  border: 2px solid white;
+  margin: 5%;
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+
+
+.page2{
+    background-color: rgb(22, 22, 22);
+    height: 170vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    gap: 50px;
+    position: relative;
+}
+
+    
+
+  .firstdiv2{
+    background-color: rgb(22, 22, 22);
+    height: 80%;
+    width: 90%;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    align-items:flex-start;
+    align-content: center;
+     gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    
+ 
+  }
+ 
+  .box2{
+
+    height: 15vmin;
+    width: 14vmin;
+    height: 12vmax;
+    width: 10vmax;
+   
+    align-self: start;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699),rgba(255, 255, 255, 0.034));
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-size: cover;
+    margin: 10px; 
+    
+
+  }
+.box2:hover{
+  animation: anim 5s;
+}
+  .box2 h6{
+    color:white;
+    gap: 10px;
+  }
+  .firstdiv3{
+    background-color: rgb(22, 22, 22);
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    align-items:flex-start;
+    align-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-self: center;
+    margin-top: 50px;
+    margin: 10px;
+ 
+  }
+
+
+.content2{
+  color: white;font-family: arial;font-family: 'sans-serif';font-weight: bold;margin-right: 100px;
+}
+
+
+ 
+@media (max-width:700px) {
+  .page3{
+    flex-wrap: wrap;
+  }
+  .bet{
+    display:none;
+  }
+  .content2{
+    margin:0px;
+  }
+
+  
+}  
+
+.showSlide {
+  display:none;
+
+}
+
+.left, .right {
+  cursor: pointer;
+ position: relative;
+
+  width:10%;
+  
+  padding: 26px;
+  margin-left: 90px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.arrow{
+ min-width: 400px;
+  max-width:auto;
+  flex-wrap: nowrap;
+  position: absolute;
+  height: 50px;
+  
+  margin-top: -40vh;
+  margin-left: -50px;
+}
+
+.right {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+  .left:hover, .right:hover {
+      background-color: rgba(115, 115, 115, 0.8);
+  }
+
+.active {
+  background-color: #717171;
+  
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+@-webkit-keyframes fade {
+  from {
+      opacity: .4
+  }
+  to {
+      opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+      opacity: .4
+  }
+  to {
+      opacity: 1
+  }
+}
+
+.edit{
+   min-width: 250px;
+   min-height: 250px;
+   height: 30%;
+   width: 45%;
+   border-radius: 5px;
+   box-shadow: 0px 0px 5px 4px  rgba(255, 255, 255, 0.176);
+   
+}
+.content{
+  color: white;
+  position: absolute;
+  margin-top: -100px;
+  height: 50px;
+  width: 250px;
+  background-color: #0e0d0d70;
+  text-align: center;
+  padding: 10px;
+  
+}
+.bet{
+  position: relative;
+  height: 200px;
+  width: 2px;
+  background-color: yellow;
+}
+@media (max-width:700px) {
+  .bet{
+    width: 200px;
+    height: 2px;
+
+  }
+}
+.edit2{
+  z-index: 0;
+  margin: 0%;
+  padding: 0%;
+  max-width: 130%;
+  max-height: 130%;
+  position: relative;
+  margin-right: 10%;
+  
+  
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  
+}
+.page3{
+
+  height: auto;
+  min-height: 400px;
+  max-height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+  margin: 0%;
+  padding: 0%;
+
+}
+.in{
+  width: 50%;
+  height: 100%;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/*class experience */
+
+.page4{
+  background-color: rgba(250, 212, 0, 0.048);
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: repeat(auto-fill,minmax(200px,auto-fill));
+  gap: 10px;
+  row-gap: 20px;
+  height: auto;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  margin-top: 10%;
+  grid-area: auto;
+}
+.circle{
+  height: 20px;
+  width: 20px;
+  margin: 10%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+  background-color: #150101;
+  z-index: 3;
+  margin-left: -10px;
+  position: relative;
+  animation: bulb linear;
+  animation-timeline:view();
+  animation-range: cover;
+  scroll-behavior: smooth;
+ animation-delay: ms;
+ 
+
+} 
+@keyframes bulb {
+  to{
+    background-color: #fde004;
+    transition: ease;
+    transition: 2s linear;
+  }
+}
+
+.line{
+  height: 150vh;
+  width: 0.3vmax;
+  margin-left: 10vw;
+  margin-top: 10%;
+
+  background-color: white;
+  position: absolute;
+
+} 
+@media (max-width:500px) {
+  .navbar{
+    height: 100px;
+    position: fixed;
+    animation: new linear;
+    animation-timeline: scroll();
+    animation-range-start:500px ;
+   
+    transition: 3s ease-in;
+    animation-delay: 1s;
+    animation-duration: 9;
+    animation-fill-mode: forwards;
+  }
+}
+@keyframes new {
+  to{
+    background-color: #00000000;
+  }
+  from{
+    background-color: #000;
+    position: fixed;
+    animation-fill-mode: forwards;
+  }
+}
+.navbar-toggler {
+    background-color: red; /* Change to the desired background color */
+}
+.line2{
+  height: 70vh;
+  width: 0.3vmax;
+  margin-left: 10vw;
+  margin-top: 10%;
+  z-index: 2;
+  background-color: white;
+  position: absolute;
+
+} 
+.bar{
+  width: 100%;
+  height: 0%;
+  background-color: red;
+  z-index: 2;
+  position: absolute;
+  animation: line 2s 5s 1 linear forwards;
+  animation-timeline: view();
+  animation-range: contain;
+  transform: height;
+  transition:0s ease-in-out;
+  animation-delay:2s;
+}
+
+.page5{
+  background-color: rgb(22, 22, 22);
+  height:40%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  margin-bottom:10%;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 5;
+  position: relative;
+
+
+  
+}
+.div1{
+ 
+  display: flex;
+  
+  align-items: flex-start;
+  flex-direction: row;
+  align-self:flex-start;
+  justify-content: flex-start;
+  margin-top: 50px;
+
+}
+
+.image{
+  margin-top: -20%;
+  height: 150%;
+  width: 50%;
+}
+.empty{
+  height: 10%;
+  max-height:10vmax;
+
+  
+  width: 0%;
+ background-image: linear-gradient(to right, yellow 70%,rgb(255, 239, 91));
+  align-self: flex-start;
+  z-index: 1;
+  margin-left: 70%;
+  border-top-left-radius:30px;
+  border-bottom-left-radius:30px;
+  position: relative;
+}
+.new{
+  animation: empty linear;
+  animation-timeline:scroll(root);
+  animation-duration: 0.5ms;
+  transform: width;
+  transition: 0.5ms ease-in-out;
+}
+.page6{
+  background-color: rgb(22, 22, 22);
+   height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+
+  align-items: center;
+  position: relative;
+  z-index: 6;
+
+ 
+ 
+}
+.pro1{
+  margin-bottom: 10%;
+  width: 200px;
+  height: 25vmax;
+  background-color: pink;
+  z-index: 6;
+  position: absolute;
+  margin-left: 10%;
+  align-self: flex-start;
+  border-radius: 10px;
+  background-image: url(project1.jpg);
+  background-size: cover;
+  transition: height 2s linear 1s;
+  z-index: 7;
+}
+
+.pro2{
+  margin-bottom: 10%;
+  width: 200px;
+  height: 25vmax;
+  background-color: pink;
+  z-index: 2;
+  position: absolute;
+  align-self: center;
+  margin-right: 5%;
+  border-radius: 10px;
+  background-image: url(project2.png);
+  background-size: cover;
+  transition: height 2s linear 1s;
+}
+.pro3{
+  margin-bottom: 10%;
+  margin-right: 15%;
+  width: 200px;
+  height: 25vmax;
+  background-color: pink;
+  z-index: 2;
+  position: absolute;
+  align-self: flex-end;
+  border-radius: 10px;
+ background-image: url(project3.jpg);
+  background-size: cover;
+  transition: height 2s linear 1s;
+}
+.pro1:hover{
+  box-shadow: 0px 0px 10px white;
+  height: 500px;
+ 
+  
+}
+.pro2:hover{
+  box-shadow: 0px 0px 10px white;
+  height: 500px;
+  
+}
+.pro3:hover{
+  box-shadow: 0px 0px 10px white;
+  height: 500px;
+  background-size: contain;
+  background-repeat: round;
+  
+}
+
+.triangle{
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self:flex-end;
+ 
+}
+.page7{
+  background-color: rgb(22, 22, 22);
+  height: 30vmax;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  
+  align-items: center;
+ 
+
+  position: relative;
+ 
+
+  
+}
+.contactheading{
+  color: white;position: relative;margin-top: -20vh;font-family: 'Georgia';margin-bottom: 10px;z-index: 2;
+  text-align: center;
+  font-weight: bold;
+}
+.contact{
+  height: 27vmax;
+  width: 100%;
+  border-top: 2px solid #fdba04;
+  border-bottom: 2px solid #fdba04;
+  background-color: #fdd80423;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  position: relative;
+  align-items: center;
+ 
+  gap: 10px;
+}
+.conbox{
+  height: 20%;
+  background-color:rgb(22, 22, 22);
+  width:30%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  position: relative;
+  margin-top: 5%;
+   font-weight: bold;
+  margin-right: 10px;
+}
+.conbox h2{
+  position:absolute;
+ 
+  align-self: center;
+  font-weight: bold;
+  font-family: 'Georgia';
+  font-size: 1px;
+}
+.conbox2{
+  position:relative;
+  padding-right: 3%;
+  align-self: center;
+  font-weight: bold;
+}
+.iconbox2{
+  height: 20%;
+  background-color:rgba(255, 247, 247, 0);
+  width:100%;
+  border-radius: 5px;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  align-self:flex-end;
+
+  position: absolute;
+    z-index: 5;
+
+}
+
+.intro2{
+  height:50%;
+  width: 100%;
+  background-image: url("trianglebg.jpeg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+  
+}
+@media (max-width:500px) {
+  .edit2{
+    display: none;
+  }
+}
+.form{
+  display: flex;
+  flex-direction:column;
+  gap: 20px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: auto;
+  border: 2px solid white;
+  width: 40vmax;
+  width: 90vmin;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 2%;
+  box-shadow: 0px 0px 5px black;
+  color: white;
+}
+.form input{
+  border-radius: 5px;
+  border: 2px inset black;
+  outline: 1px inset white;
+  background-color: #00000000;
+  margin-left: 20px;
+  flex-wrap: wrap;
+ font-family: 'Georgia';
+ color: white;
+}
+form label{
+  color: white;
+  font-weight: bold;
+  font-family: 'cursive';
+}
+form input::placeholder{
+  color: grey;
+  text-align: center;
+}
+.submit1{
+  background-color: yellow;
+  color:black;
+  padding:5%;
+  border-radius: 10px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 60px;
+}
+.submit1:active{
+  background-color: red;
+  color:yellow;
+  transition: 50ms;
+}
+footer{
+  background-color: rgb(0, 0, 17);
+  height: 300px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 90px;
+  margin-top: 50px;
+  color: rgb(138, 138, 138);
+  
+  
+}
+.canvas1{
+  height: 50px;
+}
+h3 button:active{
+  background-color: #000;
+  color: white;
+ 
+}
+.footerbtn{
+  background-color: rgb(252, 255, 94);border-radius: 5px;box-shadow:0px 0px 5px rgb(255, 255, 255);
+  transition: 200ms linear;
+  font-family: 'Georgia';
+
+
+}
+.icon1{
+  color: white;
+  font-size: 30px;
+  margin-left: 10px;
+
+
+}
+.icon2{
+  color: white;font-size: 30px;margin-left: 10px;
+}
+.icon3{
+  color: white;font-size: 30px;margin-left: 10px;
+}
+
+.progressline{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -100px;
+  height: 50%;
+  width: 40vmin;
+  width: 40vmax;
+  flex-direction: column;
+  
+
+}
+.progressline2{
+  margin-top: 20px;
+}
+
+
+.circle2{
+  height: 150px;
+  width: 150px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.circlebar{
+  height: 130px;
+  width: 130px;
+  background-color: rgb(199, 199, 199);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  z-index: 2;
+  margin-top: 10px;
+  margin-left: 10px;
+  box-shadow: 2px 3px 5px inset black,2px 3px 5px ;
+}
+
+
+.prog{
+  height: 150px;
+  width: 150px;
+background-image: linear-gradient(to right,red 80%,rgba(255, 255, 255, 0) 50%);
+ 
+  display: flex;
+  border-radius:50%;
+  justify-content: center;
+  align-items: center;
+  animation: animc ease-in-out 2s;
+  animation-duration:5s;
+  animation-iteration-count:infinite; 
+  animation-fill-mode: forwards;
+  transition: ease-in-out;  
+ 
+
+   
+  
+  
+ 
+  
+  
+  
+ 
+ 
+}
+.prog1{
+  height: 150px;
+  width: 150px;
+background-image: linear-gradient(to right,rgb(0, 110, 253) 70%,rgba(255, 255, 255, 0) 50%);
+ 
+  display: flex;
+  border-radius:50%;
+  justify-content: center;
+  align-items: center;
+  animation: animc1 ease-in-out 2s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+  animation-fill-mode: forwards;
+  transition: ease-in-out; 
+  
+  animation-iteration-count:infinite; 
+  animation-fill-mode: forwards;
+  
+  
+ 
+ 
+}
+.prog2{
+  height: 150px;
+  width: 150px;
+background-image: linear-gradient(to right,rgb(6, 179, 0) 60%,rgba(255, 255, 255, 0) 50%);
+ 
+  display: flex;
+  border-radius:50%;
+  justify-content: center;
+  align-items: center;
+  animation: animc2 ease-in-out 2s;
+  animation-duration: 5s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards;
+  transition: ease-in-out;  
+  animation-timeline: view(contain);
+  animation-iteration-count:infinite; 
+  animation-fill-mode: forwards;
+  
+  
+ 
+ 
+}
+.prog3{
+  height: 150px;
+  width: 150px;
+background-image: linear-gradient(to right,rgb(238, 255, 0) 90%,rgba(255, 255, 255, 0) 50%);
+ 
+  display: flex;
+  border-radius:50%;
+  justify-content: center;
+  align-items: center;
+  animation: animc3 ease-in-out 2s;
+  animation-duration: 5s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards;
+  transition: ease-in-out; 
+  animation-timeline: view(contain);
+  animation-iteration-count:infinite; 
+  animation-fill-mode: forwards;
+  
+  
+ 
+ 
+}
+
+.proge1{
+  height: 150px;
+  width: 150px;
+background-image: linear-gradient(to right,rgb(0, 110, 253) 70%,rgba(255, 255, 255, 0) 50%);
+ 
+  display: flex;
+  border-radius:50%;
+  justify-content: center;
+  align-items: center;
+  animation: animc1 ease-in-out 2s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+  animation-fill-mode: forwards;
+  transition: ease-in-out; 
+  
+  animation-iteration-count:infinite; 
+  animation-fill-mode: forwards;
+  
+  
+ 
+ 
+}
+.proge2{
+  height: 150px;
+  width: 150px;
+background-image: linear-gradient(to right,rgb(6, 179, 0) 60%,rgba(255, 255, 255, 0) 50%);
+ 
+  display: flex;
+  border-radius:50%;
+  justify-content: center;
+  align-items: center;
+  animation: animc2 ease-in-out 2s;
+  animation-duration: 5s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards;
+  transition: ease-in-out;  
+  animation-timeline: view(contain);
+  animation-iteration-count:infinite; 
+  animation-fill-mode: forwards;
+  
+  
+ 
+ 
+}
+.proge3{
+  height: 150px;
+  width: 150px;
+background-image: linear-gradient(to right,rgb(238, 255, 0) 90%,rgba(255, 255, 255, 0) 50%);
+ 
+  display: flex;
+  border-radius:50%;
+  justify-content: center;
+  align-items: center;
+  animation: animc3 ease-in-out 2s;
+  animation-duration: 5s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards;
+  transition: ease-in-out; 
+  animation-timeline: view(contain);
+  animation-iteration-count:infinite; 
+  animation-fill-mode: forwards;
+  
+  
+ 
+ 
+}
+.page8{
+  background-color: rgb(22, 22, 22);
+  height: 170vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+ 
+  cursor: pointer;
+  gap: 50px;
+ 
+  position: relative;
+}
+@keyframes animc {
+     0%{
+      transform: rotate(0%);
+      transition: 2s ease-in-out 2s;
+      transition-property:opacity,display ;
+     
+      background-image: linear-gradient(to right,red 0%,rgba(255, 255, 255, 0) 100%);
+     }
+     20%{
+      transform: rotate(30deg);
+      transition: 2s ease-in-out 2s;
+      background-image: linear-gradient(to right,red 30%,rgba(255, 255, 255, 0) 40%);
+     }
+     50%{
+      transform: rotate(100deg);
+      transition: 2s ease-in-out 2s;
+      background-image: linear-gradient(to right,red 40%,rgba(255, 255, 255, 0) 20%);
+     }
+     70%{
+      transform: rotate(260deg);
+      transition: 2s ease-in-out 2s;
+      background-image: linear-gradient(to right,red 60%,rgba(255, 255, 255, 0) 10%);
+     }
+     100%{
+      transform: rotate(360deg);
+      transition: 2s linear;
+      background-image: linear-gradient(to right,red 80%);
+     }
+     
+}
+
+
+
+@keyframes animc1 {
+  0%{
+   transform: rotate(0%);
+   transition: 2s ease-in-out 2s;
+   transition-property:opacity,display ;
+  
+   background-image: linear-gradient(to right,rgb(0, 110, 253) 10%,rgba(255, 255, 255, 0) 100%);
+  }
+  20%{
+   transform: rotate(30deg);
+   transition: 2s ease-in-out 2s;
+   background-image: linear-gradient(to right,rgb(0, 110, 253) 30%,rgba(255, 255, 255, 0) 40%);
+  }
+  50%{
+   transform: rotate(100deg);
+   transition: 2s ease-in-out 2s;
+   background-image: linear-gradient(to right,rgb(0, 110, 253) 40%,rgba(255, 255, 255, 0) 20%);
+  }
+  70%{
+   transform: rotate(260deg);
+   transition: 2s ease-in-out 2s;
+   background-image: linear-gradient(to right,rgb(0, 110, 253) 10% 60%,rgba(255, 255, 255, 0) 10%);
+  }
+  100%{
+   transform: rotate(360deg);
+   transition: 2s linear;
+   background-image: linear-gradient(to right,rgb(0, 110, 253) 70%);
+  }
+  
+}
+
+
+
+
+
+@keyframes animc2 {
+  0%{
+   transform: rotate(0%);
+   transition: 2s ease-in-out 2s;
+   transition-property:opacity,display ;
+  
+   background-image: linear-gradient(to right,rgb(6, 179, 0) 10%,rgba(255, 255, 255, 0) 100%);
+  }
+  20%{
+   transform: rotate(30deg);
+   transition: 2s ease-in-out 2s;
+   background-image: linear-gradient(to right,rgb(6, 179, 0) 30%,rgba(255, 255, 255, 0) 40%);
+  }
+  50%{
+   transform: rotate(100deg);
+   transition: 2s ease-in-out 2s;
+   background-image: linear-gradient(to right,rgb(6, 179, 0) 40%,rgba(255, 255, 255, 0) 20%);
+  }
+  70%{
+   transform: rotate(260deg);
+   transition: 2s ease-in-out 2s;
+   background-image: linear-gradient(to right,rgb(6, 179, 0) 50%,rgba(255, 255, 255, 0) 10%);
+  }
+  100%{
+   transform: rotate(350deg);
+   transition: 2s linear;
+   background-image: linear-gradient(to right,rgb(6, 179, 0) 60%);
+  }
+  
+}
+
+
+
+
+
+
+
+@keyframes animc3 {
+  0%{
+   transform: rotate(0%);
+   transition: 2s ease-in-out 2s;
+   transition-property:opacity,display ;
+  
+   background-image: linear-gradient(to right,rgb(238, 255, 0) 10%,rgba(255, 255, 255, 0) 100%);
+  }
+  20%{
+   transform: rotate(30deg);
+   transition: 2s ease-in-out 2s;
+   background-image: linear-gradient(to right,rgb(238, 255, 0) 30%,rgba(255, 255, 255, 0) 40%);
+  }
+  50%{
+   transform: rotate(100deg);
+   transition: 2s ease-in-out 2s;
+   background-image: linear-gradient(to right,rgb(238, 255, 0) 40%,rgba(255, 255, 255, 0) 20%);
+  }
+  70%{
+   transform: rotate(260deg);
+   transition: 2s ease-in-out 2s;
+   background-image: linear-gradient(to right,rgb(238, 255, 0) 60%,rgba(255, 255, 255, 0) 10%);
+  }
+  80%{
+    transform: rotate(270deg);
+    transition: 2s linear;
+    background-image: linear-gradient(to right,rgb(238, 255, 0) 80%);
+   }
+  100%{
+   transform: rotate(300deg);
+   transition: 2s linear;
+   background-image: linear-gradient(to right,rgb(238, 255, 0) 90%);
+  }
+  
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,642 @@
+@media (min-width:1000px) {
+   form{
+    margin-top:200px;
+    margin-bottom: 200px;
+   }
+   .firstdiv h3{
+    font-size: 3rem;
+  }
+  form{
+    padding: 0%;
+  }
+  .pro1{
+    height: 300px;
+    width: 250px;
+  }
+  .pro2{
+    height: 300px;
+    width: 250px;
+  }
+  .pro3{
+    height: 300px;
+    width: 250px;
+  }
+}  
+
+@media (min-width:1500px) {
+  form{
+    height: 40vmin;
+  }
+  .intro2{
+    height:500px;
+  }
+  .firstdiv h3{
+    font-size: 3rem;
+  }
+  .pro1{
+    height: 300px;
+    width: 250px;
+  }
+  .pro2{
+    height: 300px;
+    width: 250px;
+  }
+  .pro3{
+    height: 300px;
+    width: 250px;
+  }
+
+}  
+  @media (min-width:1500px){
+   
+   
+  }
+
+  @keyframes loading-1 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+  }
+  @keyframes loading-2 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(144deg);
+      transform: rotate(144deg);
+    }
+  }
+  @keyframes loading-3 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(135deg);
+      transform: rotate(135deg);
+    }
+  }
+
+  @media (max-width:700px) {
+    .firstdiv4{
+      grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+      grid-template-rows:repeat(2,minmax(auto-fill,1fr));
+    }
+  }
+
+  @keyframes line {
+    to{
+    
+        height: 100%;
+        transition: 2s linear 1s;
+        transform: scaleY(5) 2s;
+        
+      
+    }
+  }
+@media (max-width:600px) {
+  .pro1:hover{
+    box-shadow: 0px 0px 10px white;
+    height: 200px;
+   
+    
+  }
+  .pro2:hover{
+    box-shadow: 0px 0px 10px white;
+    height: 200px;
+    
+  }
+  .pro3:hover{
+    box-shadow: 0px 0px 10px white;
+    height: 200px;
+    background-size: contain;
+    background-repeat: round;
+    
+  }
+
+}
+
+
+  @media (max-width:600px) {
+    .page6{
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .page5{
+      height:50rem;
+    }
+    
+    .div2{
+      height: 10px;
+    }
+    .empty{
+      width: 5000px;
+    }
+    .empty img{
+       width:80%;
+    }
+ 
+    footer{
+      flex-wrap: wrap;
+      height: auto;
+      gap: 30px;
+    }
+   .footerbtn{
+       position: relative;
+      
+
+    }
+   
+   
+ 
+
+  } 
+   
+  @media (max-width:750px){
+     .contact{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      
+     }
+
+     .iconbox2{
+     
+      position: relative;
+     }
+     .edit{
+    
+     }
+     .conbox{
+      margin-top: 0%;
+      align-self: center;
+      gap: 10px;
+      width: 90%;
+     }
+     form{
+      padding: 0%;
+      gap:5px
+   
+     }
+     form input{
+      margin: 0%;
+     }
+  } 
+
+@media (max-width:350px) {
+    .intro{
+        height: 100%;
+    }
+    .iconbox{
+        margin-left:;
+        position:;
+      }
+      .page5{
+        height:100%;
+        
+        
+      }
+    
+      .div2{
+        display: none;
+      }
+      .empty{
+        display: none;
+     }
+     .empty img{
+      display: none;
+     }
+     #contact1{
+      min-width: 100px;
+     }
+    
+}
+
+@media (max-width:800px) {
+   .page6{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   }
+   .pro1{
+    margin: 0%;
+    margin-top: 20px;
+   }
+   .pro2{
+    margin: 0%;
+   }
+   .pro3{
+    margin: 0%;
+    margin-bottom: 20px;
+   }
+}
+
+
+@media (max-width:900px) {
+  
+   .margin{
+    margin-top: 20%;
+   }
+   .page6{
+    height: 70%;
+    flex-wrap: wrap;
+
+   }
+  
+}
+
+
+@media (max-width:300px) {
+ 
+
+}
+
+
+.navbar-toggler{
+   animation: anime linear;
+   animation-timeline: scroll();
+
+}
+
+    
+@keyframes anime{
+  to{
+    background-color: white;
+    transform: background-color;
+    transition: linear 2s;
+  }
+}
+
+@keyframes image {
+  to{
+    border-radius: 100px;
+  
+    box-shadow: 0px 0px 20px white;
+    display: block;
+    opacity: 0.5;
+    
+  }
+  
+
+}
+
+
+
+@keyframes picture {
+  to{
+    border-radius: 100px;
+    transform: rotate(-18deg);
+    display: block;
+    
+    opacity: 0.5;
+    
+  }
+  
+
+}
+.firstdiv font{
+   animation: name linear ;
+   transition: 2s linear;
+   transform: color;
+   animation-duration: 4s;
+   animation-iteration-count: 1;
+   animation-iteration-count: infinite;
+   animation-fill-mode: backwards;
+  
+
+}
+.firstdiv font{
+  animation: name linear ;
+  transition:  linear;
+  transform: color;
+  transform: text-stroke ;
+ 
+  animation-timeline:view(100px);
+  
+ 
+
+}
+@keyframes name {
+   to{
+     
+     color: rgb(255, 251, 0);
+     transition: linear;
+     animation-timeline:view();
+     font-size: 2rem;
+   
+   
+   }
+}
+
+
+
+
+  
+
+
+
+@keyframes anim {
+
+  border-radius: 100%;
+  box-shadow: 0 4vmin 16vmin hotpink inset	0%,
+100% {
+  border-radius: 30% 70% 70% 30% / 30% 52% 48% 70%;
+  box-shadow: 0 -2vmin 4vmin LightPink inset, 0 -4vmin 4vmin MediumPurple inset,
+    0 -2vmin 7vmin purple inset;
+}
+
+10% {
+  border-radius: 50% 50% 20% 80% / 25% 80% 20% 75%;
+}
+
+20% {
+  border-radius: 67% 33% 47% 53% / 37% 20% 80% 63%;
+  margin-top:-10px;
+}
+
+30% {
+  border-radius: 39% 61% 47% 53% / 37% 40% 60% 63%;
+  box-shadow: 0 -4vmin 8vmin red inset, -1vmin -2vmin 6vmin LightPink inset,
+    -1vmin -2vmin 4vmin MediumPurple inset, 1vmin 4vmin 8vmin purple inset;
+}
+
+40% {
+  border-radius: 39% 61% 82% 18% / 74% 40% 60% 26%;
+}
+
+50% {t, 0 2vmin 5vmin LightPink inset, 0 4vmin 4vmin MediumPurple inset,
+    0 6vmin 8vmin purple inset;
+}
+
+60% {
+  border-radius: 50% 50% 53% 47% / 72% 69% 31% 28%;
+}
+
+70% {
+  border-radius: 50% 50% 53% 47% / 26% 22% 78% 74%;
+  box-shadow: 1vmin 1vmin 8vmin LightPink inset,
+    2vmin -1vmin 4vmin MediumPurple inset, -1vmin -1vmin 16vmin purple inset;
+}
+
+80% {
+  border-radius: 50% 50% 53% 47% / 26% 69% 31% 74%;
+}
+
+90% {
+  border-radius: 20% 80% 20% 80% / 20% 80% 20% 80%;
+}
+}
+
+@media (max-width:800px) {
+  .page8{
+    flex-wrap: wrap;
+    margin-top: 10%;
+  }
+}
+
+@media(max-width:500px){
+  .page8{
+    height:150%;
+  }
+  .contact{
+    min-height:200px;
+    margin-top: 100px;
+  }
+  .submit1{
+    height:50px ;
+    width: 90px;
+    margin-top: -30px;
+  }
+}
+
+
+
+
+.progress2{
+  width: 40vw;
+  height: 2px;
+  background-color: white;
+  box-shadow: 1px 1px 10px blue;
+  margin-top: 20px;
+}
+.fill1{
+   width: 70%;
+   height: 100%;
+   background-color:yellow;
+   z-index: 5;
+   animation: progress2 linear;
+   animation-duration: 3s;
+   transform: width;
+   animation-delay: 3s;
+   animation-iteration-count: infinite;
+   
+}
+.fill2{
+  width: 80%;
+  height: 100%;
+  background-color:yellow;
+  z-index: 5;
+  animation: progress3 linear;
+  animation-duration: 3s;
+  transform: width;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  
+}
+.fill3{
+  width: 85%;
+  height: 100%;
+  background-color:yellow;
+  z-index: 5;
+  animation: progress4 linear;
+  animation-duration: 3s;
+  transform: width;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  
+}
+.fill4{
+  width: 70%;
+  height: 100%;
+  background-color:yellow;
+  z-index: 5;
+  animation: progress5 linear;
+  animation-duration: 3s;
+  transform: width;
+  animation-delay: 3s;
+ animation-iteration-count: infinite;
+  
+}
+@keyframes progress2 {
+   0%{
+    width: 0%;
+    transition: 2s linear;
+    
+   }
+   30%{
+    width: 30%;
+    transition: 2s linear;
+   }
+   50%{
+    width: 50%;
+    transition: 2s ease-in-out;
+   } 
+   100%{
+    width: 70%;
+    transition: 2s ease-in-out;
+    animation-delay: 2s
+    
+   }
+}
+@keyframes progress3 {
+  0%{
+   width: 0%;
+   transition: 2s linear;
+  }
+  30%{
+   width: 30%;
+   transition: 2s linear;
+  }
+  50%{
+   width: 60%;
+   transition: 2s ease-in-out;
+  } 
+  100%{
+   width: 80%;
+   transition: 2s ease-in-out;
+  }
+}
+@keyframes progress4 {
+  0%{
+   width: 0%;
+   transition: 2s linear;
+  }
+  30%{
+   width: 30%;
+   transition: 2s linear;
+  }
+  50%{
+   width: 60%;
+   transition: 2s ease-in-out;
+  } 
+  100%{
+   width: 85%;
+   transition: 2s ease-in-out;
+  }
+}
+@keyframes progress5 {
+  0%{
+   width: 0%;
+   transition: 2s linear;
+  }
+  30%{
+   width: 30%;
+   transition: 2s linear;
+  }
+  50%{
+   width: 50%;
+   transition: 2s ease-in-out;
+  } 
+  100%{
+   width: 70%;
+   transition: 2s ease-in-out;
+  }
+}
+
+
+.animation{
+  animation: fade linear;
+  animation-fill-mode: forwards;
+  animation-timeline: view();
+  animation-range: entry;
+  animation-duration: 0.1ms;
+  transition: ease-in 0.5ms;
+  scroll-behavior: unset;
+  width: 100%;
+}
+.animation2{
+  animation: fade linear;
+  animation-fill-mode: forwards;
+  animation-timeline: view();
+  animation-range: entry;
+  animation-duration: 0.1ms;
+  transition: ease-in 0.5ms;
+  scroll-behavior: unset;
+}
+.animation3{
+  animation: fade3 linear;
+  animation-fill-mode: forwards;
+  animation-timeline: view();
+  animation-range: entry;
+  animation-duration: 0.1ms;
+  transition: ease-in 0.5ms;
+  scroll-behavior: unset;
+
+}
+@keyframes fade3 {
+  from{
+    margin-left: -100px;
+    transition: 2s ease-in;
+    transform-origin: left;
+    opacity: 0;
+    
+  }
+  to{
+    margin-left:0px;
+    transform: scale(4, 3) ease-in-out 0.2ms; /* Equal to scaleX(2) scaleY(0.5) */
+    transform-origin: left;
+    transition: 0.3ms ease-out;
+  }
+}
+@keyframes fade2 {
+  
+  to{
+    transform: scale(4, 1) ease-in-out 0.2ms; /* Equal to scaleX(2) scaleY(0.5) */
+    transform-origin: left;
+    transition: 0.3ms ease-out;
+       
+  }
+}
+/*full web fade*/
+@keyframes fade {
+  from{
+    scale: 0.1 0.2 ;
+    opacity: 0.2;
+
+  }
+  to{
+    scale: 4 ease-in;
+    opacity: 1;
+
+  }
+}
+@keyframes empty{
+10%{
+  width:10%;
+  transition: 0.5ms ease-in-out;
+}
+30%{
+  width:20%;
+}
+50%{
+  width:30%;
+}
+80%{
+  width:40%;
+}
+100%{
+  width:50%;
+}
+}
