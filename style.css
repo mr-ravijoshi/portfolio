@@ -1,48 +1,5 @@
 @support (animation-timeline:view()){
-  .pro1{
-  margin-bottom: 10%;
-  width: 200px;
-  height: 25vmax;
-  background-color: pink;
-  z-index: 6;
-  position: absolute;
-  margin-left: 10%;
-  align-self: flex-start;
-  border-radius: 10px;
-  background-image: url(project1.jpg);
-  background-size: cover;
-  transition: height 2s linear 1s;
-  z-index: 7;
-}
 
-.pro2{
-  margin-bottom: 10%;
-  width: 200px;
-  height: 25vmax;
-  background-color: pink;
-  z-index: 2;
-  position: absolute;
-  align-self: center;
-  margin-right: 5%;
-  border-radius: 10px;
-  background-image: url(project2.png);
-  background-size: cover;
-  transition: height 2s linear 1s;
-}
-.pro3{
-  margin-bottom: 10%;
-  margin-right: 15%;
-  width: 200px;
-  height: 25vmax;
-  background-color: pink;
-  z-index: 2;
-  position: absolute;
-  align-self: flex-end;
-  border-radius: 10px;
- background-image: url(project3.jpg);
-  background-size: cover;
-  transition: height 2s linear 1s;
-}
 }
 .dp{
   height: 10rem;
@@ -284,7 +241,50 @@
 
   
 }  
+  .pro1{
+  margin-bottom: 10%;
+  width: 200px;
+  height: 25vmax;
+  background-color: pink;
+  z-index: 6;
+  position: absolute;
+  margin-left: 10%;
+  align-self: flex-start;
+  border-radius: 10px;
+  background-image: url(project1.jpg);
+  background-size: cover;
+  transition: height 2s linear 1s;
+  z-index: 7;
+}
 
+.pro2{
+  margin-bottom: 10%;
+  width: 200px;
+  height: 25vmax;
+  background-color: pink;
+  z-index: 2;
+  position: absolute;
+  align-self: center;
+  margin-right: 5%;
+  border-radius: 10px;
+  background-image: url(project2.png);
+  background-size: cover;
+  transition: height 2s linear 1s;
+}
+.pro3{
+  margin-bottom: 10%;
+  margin-right: 15%;
+  width: 200px;
+  height: 25vmax;
+  background-color: pink;
+  z-index: 2;
+  position: absolute;
+  align-self: flex-end;
+  border-radius: 10px;
+ background-image: url(project3.jpg);
+  background-size: cover;
+  transition: height 2s linear 1s;
+}
 .showSlide {
   display:none;
 
